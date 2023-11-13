@@ -17,183 +17,161 @@
 </head>
 <body>
       <!--Main Navigation-->
-  <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+        <div class="container-fluid">
+          <!-- Navbar brand -->
+          <a class="navbar-brand nav-link" href="#">
+            <strong>Allan Dev</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+                  aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#intro">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/bimo" rel="nofollow"
+                   target="_blank">Bimo</a>
+              </li>
+            </ul>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
-      <div class="container-fluid">
-        <!-- Navbar brand -->
-        <a class="navbar-brand nav-link" href="#">
-          <strong>Allan Dev</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarExample01">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#intro">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/bimo" rel="nofollow"
-                target="_blank">Bimo</a>
-            </li>
-          </ul>
-
-          <ul class="navbar-nav d-flex flex-row">
-            <!-- Icons -->
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://www.linkedin.com/in/allan-gnutzmans-5424191b5/" rel="nofollow"
-                target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://www.facebook.com/allan.gnutzmans" rel="nofollow" target="_blank">
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://twitter.com/AllanGnutzmans" rel="nofollow" target="_blank">
-                <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://github.com/allangnutzmans" rel="nofollow" target="_blank">
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- Navbar -->
-
-    <!-- Background image -->
-    <div id="intro" class="bg-image shadow-2-strong">
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
-        <div class="container d-flex align-items-center justify-content-center text-center h-100">
-          <div class="text-white d-flex flex-column">
-            <h1 class="mb-3">Allan Gnutzmans</h1>
-            <h5 class="mb-4">Web development Portfolio & Personal Projects</h5>
-            <a class="btn btn-outline-light btn-lg m-2" href="/bimo" role="button"
-              rel="nofollow" target="_blank">Bimo</a>
-            <a class="btn btn-outline-light btn-lg m-2" href="#lINKMMAPI" target="_blank"
-               role="button">Music Ministry API</a>
-            <a class="btn btn-outline-light btn-lg m-2" href="#LinkcontactsAPI" target="_blank"
-              role="button">Contacts API</a>
+      </nav>
+      <!-- Navbar -->
+      <!-- Card -->
+      <div id="intro" class="bg-image shadow-2-strong">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4);">
+          <div class="bg-image shadow-2-strong d-flex align-items-center justify-content-center h-100">
+            <div class="card profile-card-1">
+              <img src="img/background-cover.jpeg" alt="profile-sample1" class="background">
+              <div class="card-content">
+                <img src="img/profile.jpg" alt="profile-image" class="profile">
+                <h2>Allan Gnutzmans<small>Web development</small></h2>
+                <div class="icon-block">
+                  <a href="https://www.linkedin.com/in/allan-gnutzmans-5424191b5/" rel="nofollow" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/allangnutzmans" rel="nofollow" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.facebook.com/allan.gnutzmans" rel="nofollow" target="_blank"><i class="fab fa-facebook"></i></a>
+                  <a href="https://twitter.com/AllanGnutzmans" rel="nofollow" target="_blank"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="project-links">
+                  <a class="btn btn-outline-light btn-lg m-2" href="/bimo" role="button"
+                     rel="nofollow" target="_blank">Bimo</a>
+                  <a class="btn btn-outline-light btn-lg m-2" href="#lINKMMAPI" target="_blank"
+                     role="button">Music Ministry API</a>
+                  <a class="btn btn-outline-light btn-lg m-2" href="#LinkcontactsAPI" target="_blank"
+                     role="button">Contacts API</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Background image -->
-
-  </header>
-  <!--Main Navigation-->
 
   <!--Main layout-->
-  <main class="mt-5">
-    <div class="container">
-      <!--Section: Content-->
-      <section>
-        <div class="row">
-          <div class="col-md-6 gx-5 mb-4">
-            <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
-              <img src="https://mdbootstrap.com/img/new/slides/002.jpg" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6 gx-5 mb-4">
-            <h4><strong>Facilis consequatur eligendi</strong></h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
-              eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
-              sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
-            </p>
-            <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
-              nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
-              alias, unde optio accusantium soluta, iusto molestiae adipisci et?
-            </p>
-          </div>
-        </div>
-      </section>
-      <!--Section: Content-->
-
-      <hr class="my-5" />
-
-      <!--Section: Content-->
-      <section class="text-center">
-        <h4 class="mb-5"><strong>Personal Projects</strong></h4>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-12 mb-4">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="img/bimo.jpeg" class="img-fluid" />
-                <a href="../../bimo">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Bimo</h5>
-                <p class="card-text">
-                  Backstage Informational Musical Organizer for Church Communities
-                </p>
-                <a href="/bimo" class="btn btn-primary">Go</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="img/musical-note-simple-logo.jpg" class="img-fluid" />
+      <div class="container">
+        <!--Section: Content-->
+        <section>
+          <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+              <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/slides/002.jpg" class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Music Ministry API</h5>
-                <p class="card-text">
-                  Coming Soon - API to GET, POST, PUT and DELETE songs.
-                </p>
-                <a href="#!" class="btn btn-primary">Go</a>
+            </div>
+
+            <div class="col-md-6 gx-5 mb-4">
+              <h4><strong>Facilis consequatur eligendi</strong></h4>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
+                eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
+                sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+              </p>
+              <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
+                nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
+                alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--Section: Content-->
+
+        <hr class="my-5" />
+
+        <!--Section: Content-->
+        <section class="text-center">
+          <h4 class="mb-5"><strong>Personal Projects</strong></h4>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="img/bimo.jpeg" class="img-fluid" />
+                  <a href="../../bimo">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Bimo</h5>
+                  <p class="card-text">
+                    Backstage Informational Musical Organizer for Church Communities
+                  </p>
+                  <a href="/bimo" class="btn btn-primary">Go</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="img/musical-note-simple-logo.jpg" class="img-fluid" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Music Ministry API</h5>
+                  <p class="card-text">
+                    Coming Soon - API to GET, POST, PUT and DELETE songs.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Go</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="/img/agenda.png" class="img-fluid" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Contacts API</h5>
+                  <p class="card-text">
+                    Coming Soon - API to GET, POST, PUT and DELETE contacts.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Go</a>
+                </div>
               </div>
             </div>
           </div>
+        </section>
+        <!--Section: Content-->
 
+        <hr class="my-5" />
 
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card">
-            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-              <img src="/img/agenda.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Contacts API</h5>
-              <p class="card-text">
-                Coming Soon - API to GET, POST, PUT and DELETE contacts.
-              </p>
-              <a href="#!" class="btn btn-primary">Go</a>
-            </div>
-          </div>
-        </div>
-    </div>
-      </section>
-      <!--Section: Content-->
-
-      <hr class="my-5" />
-
-  </main>
-  <!--Main layout-->
+        <!--Main layout-->
 
   <!--Footer-->
   <footer class="bg-light text-lg-start">
@@ -217,13 +195,6 @@
         <i class="fab fa-github"></i>
       </a>
     </div>
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
   </footer>
   <!--Footer-->
     <!-- MDB -->
